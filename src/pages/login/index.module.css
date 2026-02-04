@@ -1,0 +1,128 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px;
+  }
+  
+  .loginCard{
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+  }
+  
+  .loginTitle {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .loginForm {
+    margin-bottom: 30px;
+  }
+  
+  .formGroup{
+    margin-bottom: 20px;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .formControl{
+    padding: 12px 16px;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .formControl:focus {
+    outline: none;
+    border-color: #667eea;
+  }
+  
+  .formControl.is-invalid {
+    border-color: #ff4757;
+  }
+  
+  .invalidFeedback {
+    color: #ff4757;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .formOptions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  .formCheck {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .formCheck input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .btnLink{
+    background: none;
+    border: none;
+    color: #667eea;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .btnLink:hover {
+    text-decoration: underline;
+  }
+  
+  .btn {
+    height: 40PX;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+  }
+  
+  .btnPrimary{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+  }
+  
+  .btnPrimary:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+  }
+  
+  .btnPrimary:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .btnBlock{
+    width: 100%;
+  }
+  
+  .loginFooter{
+    text-align: center;
+    color: #666;
+  }
